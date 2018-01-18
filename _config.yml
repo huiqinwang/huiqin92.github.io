@@ -12,8 +12,8 @@ highlight_theme: night
 
 #### Permalink
 # For more see: http://jekyllrb.com/docs/permalinks/
-#permalink: pretty
-permalink: /:categories/:year/:month/:day/:title
+permalink: pretty
+#permalink: /:categories/:year/:month/:day/:title
 
 #### Markdown Processors
 # 'redcarpet' is unsupported on GitHub Pages now.
@@ -45,10 +45,10 @@ language: zh-CN    ## blog site languages: en, zh-CN, zh-TW, de
 
 #### Menu
 menu:
-  Home: /
-  Archives: /archives
-#  About: /about
-  categories: /categories
+  Home|首页: /
+  Archives|归档: /archives
+  categories|分类: /categories
+  Author|作者: /about
  # tags: /tags
 ## you can create `tags` and `categories` folders (I had created them already).
 ## And create a `index.md` file in each of them.
